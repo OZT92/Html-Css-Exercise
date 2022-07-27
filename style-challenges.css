@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -125,4 +126,20 @@ body {
 
 p {
   margin-bottom: 10px;
+}
+
+.product-img {
+  float: left;
+  width: 245px;
+}
+
+.container-info {
+  float: left;
+  width: 245px;
+  margin: 20px 20px;
+}
+
+.container-details {
+  float: right;
+  width: 245px;
 }
